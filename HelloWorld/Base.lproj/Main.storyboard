@@ -32,6 +32,9 @@
                                 <color key="tintColor" systemColor="opaqueSeparatorColor"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Show text"/>
+                                <connections>
+                                    <action selector="makeButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yeh-zA-d2W"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -43,10 +46,14 @@
                             <constraint firstItem="SHw-IZ-oIQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="rCi-W3-mzW"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="helloWorldLabel" destination="SHw-IZ-oIQ" id="P5k-Un-1Hz"/>
+                        <outlet property="toggleButton" destination="cdU-rr-cRC" id="295-vu-K7V"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131.8840579710145" y="-34.151785714285715"/>
+            <point key="canvasLocation" x="113" y="-363"/>
         </scene>
     </scenes>
     <resources>
